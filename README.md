@@ -1,4 +1,4 @@
-﻿<h1>Single Page Applications using ASP.NET 4.6.1, Angular 1</h1>
+<h1>Single Page Applications using ASP.NET 4.6.1, Angular 1</h1>
 
 <p>
 This sample application consists of a Single Page Application Angularjs Front-End web application client that allows a user to register their
@@ -12,12 +12,13 @@ application used by the user should store it securely and locally in order to pr
 </p>
 <h2> Server Side</h2>
 The technologies used to communicate the client to the backend REST service are :
-  <ul> The ASP .NET framework 4.6.1 </li>
-	  <li> Hosted on an IIS web server</li>
-	  <li> Web API 2.2  (Resouce Server)</li>
-	  <li> OWIN middleware </li>
-	  <li> Database Entity Frame 6.x to SQL LocalDB server</li>
-	  <li> Identity Server (Entity Framework nuget package) 2.1 Autherization Server using bearer token </li>
+	<ul> 
+		<li>The ASP .NET framework 4.6.1</li>
+		<li> Hosted on an IIS web server</li>
+		<li> Web API 2.2  (Resouce Server)</li>
+		<li> OWIN middleware </li>
+		<li> Database Entity Frame 6.x to SQL LocalDB server</li>
+		<li> Identity Server (Entity Framework nuget package) 2.1 Autherization Server using bearer token </li>
   </ul>
 
 <h2> Client Side</h2>
@@ -29,6 +30,7 @@ The techology used are:
 		<li>CSS</li>
 	</ul>
 <h2>Tools</h2>
+The build tools used are:
 	<ul>
 		<li>Bootstrap 3</li>		
 		<li>Gulp</li>
@@ -38,7 +40,7 @@ The techology used are:
 	</ul>
   
  <h2> Install the following nuget packges (install-package)</h2>
-  
+  The following nuget packages are used:
   	<ul>
 	  <li> Microsoft.Owin.Host.SystemWeb</li>
 	  <li> Microsoft.Owin.Security</li>
@@ -50,5 +52,3 @@ The techology used are:
 	  <li> Microsoft.AspNet.Identity.Owin</li>
 	  <li> Microsoft.AspNet.WebApi.Owin</li>
   </ul>
-
-
