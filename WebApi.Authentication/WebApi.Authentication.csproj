@@ -172,7 +172,6 @@
     <Content Include="packages.config">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="readme.md" />
     <Content Include="bower.json" />
     <Content Include="package.json" />
     <None Include="Web.Debug.config">

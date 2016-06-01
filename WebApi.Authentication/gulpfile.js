@@ -1,4 +1,5 @@
-﻿// include plug-ins
+/// <binding BeforeBuild='clean' AfterBuild='build-spa' />
+// include plug-ins
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
