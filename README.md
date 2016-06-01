@@ -1,4 +1,4 @@
-﻿<h1>Single Page Applications using ASP.NET 4.6.1, Angular 1</h1>
+<h1>Single Page Applications using ASP.NET 4.6.1, Angular 1</h1>
 
 <p>
 This sample application consists of a Single Page Application Angularjs Front-End web application client that allows a user to register their
@@ -32,7 +32,7 @@ The techology used are:
 <h2>Tools</h2>
 The build tools used are:
 	<ul>
-		<li>Bootstrap 3</li>		
+		<li>Bootstrap</li>
 		<li>Gulp</li>
 		<li>Nuget</li>
 		<li>Bower</li>
@@ -52,5 +52,3 @@ The build tools used are:
 	  <li> Microsoft.AspNet.Identity.Owin</li>
 	  <li> Microsoft.AspNet.WebApi.Owin</li>
   </ul>
-
-
