@@ -32,7 +32,7 @@ The techology used are:
 <h2>Tools</h2>
 The build tools used are:
 	<ul>
-		<li>Bootstrap</li>		
+		<li>Bootstrap</li>
 		<li>Gulp</li>
 		<li>Nuget</li>
 		<li>Bower</li>
