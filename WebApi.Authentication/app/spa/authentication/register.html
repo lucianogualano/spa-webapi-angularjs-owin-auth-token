@@ -1,0 +1,50 @@
+﻿<div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h1 class="text-center">
+                    <span class="fa-stack fa-1x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-sign-in fa-stack-1x fa-inverse"></i>
+                    </span>Register
+                </h1>
+            </div>
+            <div class="modal-body">
+                 <!--<form class="form col-md-12 center-block" #hf="ngForm">-->
+                <form name="form"  ng-submit="authCtrl.signup()" role="form">
+                    <!--<div class="container">
+                        <div class="row
+                            <div class="col-sm-12">-->
+                                <div class="form-group" ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control input-lg" ng-model="authCtrl.email" required />
+                                    <span ng-show="form.email.$touched && form.email.$invalid" class="help-block">Email is required</span>
+                                </div>
+
+                                <div class="form-group" ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
+                                    <label for="password">Password</label>
+                                    <input type="password"
+                                           name="password"
+                                           id="password"
+                                           class="form-control"
+                                           ng-model="authCtrl.password"
+                                           ng-minlength="6"
+                                           required />
+                                    <span ng-show="form.password.$touched && form.password.$invalid && form.password.$error.required" class="help-block">Password is required</span>
+                                </div>
+
+                                <div class="form-group">
+                                    <button type="submit" ng-disabled="form.$invalid || authCtrl.dataLoading" class="btn btn-primary">Sign Up</button>
+                                    <img ng-if="authCtrl.dataLoading" src="data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==" />
+                                </div>
+                            <!--</div>
+                        </div>
+                    </div>-->
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+

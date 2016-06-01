@@ -1,0 +1,20 @@
+{
+  "name": "WebApiAuthentication",
+  "version": "1.0.0",
+  "description": "This sample application consists of a Single Page Application Angularjs Front-End web application client that allows a user to register their\r email and password credentials. Once registered the users can then log in and out of the application.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "merge": "^1.2.0",
+    "path": "^0.12.7"
+  }
+}
