@@ -5,6 +5,34 @@
 	<meta charset="utf-8" />
 </head>
 <body>
-    <h1>Welcome!!! You are logged in.</h1>
+        
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th class="text-center">
+                    First Name
+                </th>
+                <th class="text-center">
+                    Last Name
+                </th>
+                <th class="text-center">
+                    Enrollment Date
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="student in dashboardCtrl.students">
+                <td class="text-center">
+                    {{student.FirstMidName}}
+                </td>
+                <td class="text-center">
+                    {{student.LastName}}
+                </td>
+                <td class="text-center">
+                    {{student.EnrollmentDate}}
+                </td>                
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>

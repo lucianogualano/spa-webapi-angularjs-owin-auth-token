@@ -53,8 +53,8 @@
         })
         .when('/dashboard', {
             templateUrl: '/spa/dashboard/dashboard.html',
-            controller: 'AuthenticaitonCtrl',
-            controllerAs: 'authCtrl'
+            controller: 'DashboardCtrl',
+            controllerAs: 'dashboardCtrl'
         })
         .otherwise({
             redirectTo: "/"

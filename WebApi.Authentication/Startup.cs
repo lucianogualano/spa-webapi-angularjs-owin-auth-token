@@ -5,6 +5,8 @@ using System.Web;
 using Microsoft.Owin;
 using Owin;
 using System.Web.Http;
+using System.Data.Entity;
+using WebApi.Authentication.Infrastructure;
 
 [assembly: OwinStartup(typeof(WebApi.Authentication.Startup))]
 
@@ -15,6 +17,9 @@ namespace WebApi.Authentication
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+
+            // Init database
+            Database.SetInitializer(new ApplicationDbInitializer());
         }
     }
 }
